@@ -57,15 +57,15 @@ function render() {
     }
 
 }
-var clearButton = document.getElementById('Table')
-var button = document.createElement('button')
-clearButton.appendChild(button)
-button.setAttribute('id', 'ClearData')
-button.textContent = 'Clear All Data'
-button.setAttribute('type', 'button')
-button.setAttribute('onclick', 'clearFunction()')
-button.addEventListener('ClearData', clearFunction())
-function clearFunction() {
-    var ClearData = document.getElementById('Table')
-    ClearData.remove();
-}
+// var clearButton = document.getElementById('Table')
+// var button = document.createElement('button')
+// clearButton.appendChild(button)
+// button.setAttribute('id', 'ClearData')
+// button.textContent = 'Clear All Data'
+// button.setAttribute('type', 'button')
+// button.setAttribute('onclick', 'clearFunction()')
+// button.addEventListener('ClearData', clearFunction())
+// function clearFunction() {
+//     var ClearData = document.getElementById('Table')
+//     ClearData.remove();
+// }
