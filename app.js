@@ -24,6 +24,8 @@ form.addEventListener('submit', function () {
         var myDelete = document.getElementById('Table')
         myDelete.remove();
     }
+    var allTasksstring=JSON.stringify(allTasks)
+    localStorage.setItem('MyTaskes',allTasksstring)
     render();
 })
 
